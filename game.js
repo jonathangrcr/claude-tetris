@@ -44,10 +44,10 @@ const themeToggle = document.getElementById('theme-toggle');
 function applyTheme(theme) {
   document.documentElement.setAttribute('data-theme', theme);
   if (theme === 'light') {
-    themeToggle.textContent = '🌙 Dark';
+    themeToggle.textContent = '⏾ Dark';
     themeToggle.title = 'Switch to dark theme';
   } else {
-    themeToggle.textContent = '☀ Light';
+    themeToggle.textContent = '☀︎ Light';
     themeToggle.title = 'Switch to light theme';
   }
 }
